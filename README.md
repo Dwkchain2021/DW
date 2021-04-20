@@ -2,12 +2,10 @@
 
 Official Golang implementation of the Ethereum protocol.
 
-
-
 Automated builds are available for stable releases and the unstable master branch. Binary
 archives are published at https://github.com/Dwkchain2021/DW.git
 
-**<u>DW Ethereum DPOS has been successfully operated! 
+**DW Ethereum DPOS has been successfully operated!** 
 
 If you want to join **DW Ethereum DPOS**, please email to: dwchain2021@gmail.com
 
@@ -24,22 +22,6 @@ them using your favourite package manager. Exp：centos 8
 
 * yum -y install golang
 
-
-
-## Building the source
-
-Once the dependencies are installed, run
-
-```shell
-make DW
-```
-
-or, to build the full suite of utilities:
-
-```shell
-make all
-```
-
 ## Executables
 
 The DW project comes with several wrappers/executables found in the `cmd`
@@ -51,8 +33,7 @@ directory.
 
 ## Running DW
 
-Going through all the possible command line flags is out of scope here (please consult our
-[CLI Wiki page](https://github.com/ethereum/DW/wiki/Command-Line-Options)),
+Going through all the possible command line flags is out of scope here,
 but we've enumerated a few common parameter combos to get you up to speed quickly
 on how you can run your own DW instance.
 
@@ -194,12 +175,12 @@ the DW DPOS ` fields:
 
 ```json
 "dpos": {
-    "period": 10,   // Number of seconds between blocks to enforce
-    "epoch": 60,    // Epoch length to reset votes and checkpoint
-    "maxValidatorsCount": 21,  // Max count of validators
+    "period": 10,                     // Number of seconds between blocks to enforce
+    "epoch": 60,                      // Epoch length to reset votes and checkpoint
+    "maxValidatorsCount": 21,         // Max count of validators
     "minDelegatorBalance": 40000000,  // Min delegator balance to valid this delegate
     "minCandidateBalance": 40000000,  // Min candidate balance to valid this candidate
-    "validators": [					  // Genesis validator list
+    "validators": [                   // Genesis validator list
         "0x0000000000000000000000000000000000000001",
         "0x0000000000000000000000000000000000000002",
         "0x0000000000000000000000000000000000000003"
