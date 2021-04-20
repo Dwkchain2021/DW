@@ -31,9 +31,11 @@ DW 运行需要GO语言（V1.13或更高版本）和C语言编译环境，安装
   > systemctl restart firewalld
 
     >firewall-cmd --zone=public --add-port=30303/tcp -–permanent  #系统默认端口
+    >
     >firewall-cmd --zone=public --add-port=8545/tcp  -–permanent   #RPC 默认端口 
+  >
     >firewall-cmd --zone=public --add-port=123/udp   --permanent   #NTP 服务默认端口
-
+  
     >firewall-cmd --reload
 
 ## 客户端DW
