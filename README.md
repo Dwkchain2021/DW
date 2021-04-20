@@ -29,7 +29,7 @@ directory.
 
 | Command | Description                                                  |
 | :-----: | ------------------------------------------------------------ |
-|   DW    | Our main YINIU CLI client. It is the entry point into the Ethereum network (main-, test- or private net), capable of running as a full node (default), archive node (retaining all historical state) or a light node (retrieving data live). It can be used by other processes as a gateway into the Ethereum network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `DW --help` and the [CLI Wiki page](https://github.com/ethereum/DW/wiki/Command-Line-Options) for command line options. |
+|   DW    | Our main YINIU CLI client. It is the entry point into the DW network ( private net), capable of running as a full node (default). It can be used by other processes as a gateway into the DW network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `DW --help` and the [CLI Wiki page](https://github.com/ethereum/DW/wiki/Command-Line-Options) for command line options. |
 
 ## Running DW
 
