@@ -129,19 +129,7 @@ aware of and agree upon. This consists of a small JSON file (e.g. call it `genes
     "byzantiumBlock": 0,
     "constantinopleBlock": 0,
     "petersburgBlock": 0,
-    "istanbulBlock": 0,
-    "dpos": {
-        "period": 10,
-        "epoch": 60,
-        "maxValidatorsCount": 21,
-        "minDelegatorBalance": 40000000,
-        "minCandidateBalance": 40000000,
-        "validators": [
-        	            "0x0000000000000000000000000000000000000001",
-        	            "0x0000000000000000000000000000000000000002",
-      	                "0x0000000000000000000000000000000000000003"
-        	            ]
-    }
+    "istanbulBlock": 0
   },
   "alloc": {},
   "coinbase": "0x0000000000000000000000000000000000000000",
@@ -170,25 +158,6 @@ the accounts and populate the `alloc` field with their addresses.
   }
 }
 ```
-
-the DW DPOS ` fields:
-
-```json
-"dpos": {
-    "period": 10,                     // Number of seconds between blocks to enforce
-    "epoch": 60,                      // Epoch length to reset votes and checkpoint
-    "maxValidatorsCount": 21,         // Max count of validators
-    "minDelegatorBalance": 40000000,  // Min delegator balance to valid this delegate
-    "minCandidateBalance": 40000000,  // Min candidate balance to valid this candidate
-    "validators": [                   // Genesis validator list
-        "0x0000000000000000000000000000000000000001",
-        "0x0000000000000000000000000000000000000002",
-        "0x0000000000000000000000000000000000000003"
-    ]
-}
-```
-
-
 
 With the genesis state defined in the above JSON file, you'll need to initialize **every**
 `DW` node with it prior to starting it up to ensure all blockchain parameters are correctly
