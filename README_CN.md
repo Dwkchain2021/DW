@@ -1,8 +1,6 @@
 ## DW (DiamondWisdomChain)：Ethereum DPOS
 
-**DW（DiamondWisdomChain）**在以太坊go-ethereum(V1.9.25)的基础上实现了DPOS共识机制，并且已成功运营，相关获取地址：
-
- https://github.com/Dwkchain2021/DW.git
+DW（DiamondWisdomChain）在以太坊的基础上实现了DPOS共识机制，并且已成功运营
 
 若您有对DW更深入的了解，或需要相关合作，可发送邮件至：dwchain2021@gmail.com
 
@@ -48,6 +46,6 @@ DW 可执行文件在目录 /DW/build/bin
 
 ## DW运行
 
-DW运行模式及命令与以太坊geth相同，具体信息可参考以太坊geth或邮件咨询：dwchain2021@gmail.com
+DW运行模式及命令与以太坊客户端执行命令相同，具体信息可参考以太坊客户端命令或邮件咨询：dwchain2021@gmail.com
 
 
